@@ -1,5 +1,7 @@
 # Go dutch
 
+Write a program in [GoDutch](.src/main/java/com/epam/rd/autotasks/godutch/GoDutch.java) class
+
 **Description**
 
 > A company of friends visits a restaurant.
