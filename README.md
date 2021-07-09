@@ -1,6 +1,6 @@
 # Go dutch
 
-Write a program in [GoDutch](.src/main/java/com/epam/rd/autotasks/godutch/GoDutch.java) class
+Write a program in [GoDutch](./src/main/java/com/epam/rd/autotasks/godutch/GoDutch.java) class
 
 **Description**
 
