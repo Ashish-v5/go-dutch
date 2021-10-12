@@ -1,31 +1,34 @@
 # Go dutch
 
-Write a program in [GoDutch](./src/main/java/com/epam/rd/autotasks/godutch/GoDutch.java) class
+The purpose of this exercise is to familiarize you with basic conditional and cyclic operations.
 
-**Description**
+Estimated workload of this exercise is _20 minutes_.
 
-> A company of friends visits a restaurant.
+### Description
+
+Consider a company of friends visiting a restaurant.
 They decided to equally split the bill.
+
 Friends decided to add 10 percent of the bill total amount as tips.
 Then they cover the total payment in equal parts.
-A program reads bill total amount and number of friends, and prints part to pay.
 
-**Requirements**
-1. Program must read data from System.in
-2. Bill total amount cannot be negative. Otherwise, the program shuts down and prints:
->"Bill total amount cannot be negative"
-3. Number of friends cannot be negative or zero. Otherwise, the program shuts down and prints:
->"Number of friends cannot be negative or zero"
-4. Bill total amount, number of friends and part to pay are integers
-5. The program reads first bill total amount, and then number of friends
+Please, proceed to [GoDutch](./src/main/java/com/epam/rd/autotasks/godutch/GoDutch.java) class
+and write a program that reads a bill total amount and a number of friends, and then prints part to pay.
 
-**Example**
+Consider some details:
+- Program must read data from System.in
+- Bill total amount cannot be negative. If input value is negative, the program stops, printing: `Bill total amount cannot be negative`
+- Number of friends cannot be negative or zero. If input value is, then the program stops, printing: `Number of friends cannot be negative or zero`
+- Bill total amount, number of friends and part to pay are integers
+
+### Example
 
 Input:
-
->_1000_  
->_5_
-
+```
+1000  
+5
+```
 Output:
-
->_220_
+```
+220
+```
