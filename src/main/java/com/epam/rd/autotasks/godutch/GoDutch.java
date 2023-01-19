@@ -10,12 +10,14 @@ public class GoDutch {
         int bill,friends;
         bill = sc.nextInt();
         friends = sc.nextInt();
+        double tip=0.10*bill;
+        double total=bill+tip;
         if(bill<0){
             System.out.println("Bill total amount cannot be negative");
         }else if(friends<=0){
             System.out.println("Number of friends cannot be negative or zero");
         }else{
-            System.out.println(bill/friends);
+            System.out.println((int)(total/friends));
         }
     }
 }
